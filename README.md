@@ -1,0 +1,1 @@
+# EXTRACTOR-xbg-resources-avatar-fc234
