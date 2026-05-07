@@ -1,9 +1,33 @@
-**lang:** <br>
-[🇨🇵 fr](#fr)<br>
-[ 🇬🇧 en](#en) <br>
-[ 🇨🇳 ru](#ru)<br>
+**lang:** 
+<details><summary>🇨🇵 fr</summary>
+<a name="fr"></a>
 
-<details>
+# EXTRACTEUR 
+**textures et matériaux à partir de fichiers xbg**
+
+
+**Jeux supportés :** *avatar, fc2, fc3, fc4*
+
+
+
+Utilitaire pour l'extraction automatique de textures et de matériaux à partir de fichiers `.xbg`. Plus besoin d'édition hexadécimale manuelle pour localiser les fichiers intégrés — tout est extrait proprement et prêt à l'emploi !
+
+## Instructions d'utilisation :
+1. Placez vos fichiers `.xbg` dans le même répertoire que `EXTRACTOR.exe`.  
+2. Lancez `EXTRACTOR.exe`.  
+3. Un fichier nommé `PATH.ini` sera généré, contenant les chemins par défaut vers les dossiers de ressources décompressés.  
+4. Ouvrez `PATH.ini` et ajoutez les chemins complets vers vos propres répertoires de ressources décompressés.  
+   - Seule la **première ligne non commentée** sera utilisée.  
+   - Pour désactiver un chemin, ajoutez un point-virgule (`;`) au début — ex: `;C:\MesFichiersExtraits`  
+5. Après avoir relancé l'outil, il extraira automatiquement toutes les textures et tous les matériaux référencés par vos fichiers `.xbg` dans des sous-dossiers organisés, en préservant la structure d'origine des répertoires.
+
+## Avantages :
+* ✅ Accès instantané à tous les assets intégrés
+* ✅ Hiérarchie des dossiers préservée
+* ✅ Configuration simple via `PATH.ini`
+</details>
+
+<details><summary>🇬🇧 en</summary>
 <a name="en"></a>
 
 # EXTRACTOR 
@@ -30,7 +54,7 @@ Utility for automatic extraction of textures and materials from `.xbg` files. No
 * ✅ Preserved folder hierarchy
 * ✅ Simple configuration via `PATH.ini`
 </details>
-<details>
+<details><summary>🇷🇺 ru</summary>
 <a name="ru"></a>
 
 # ВЫДИРАТЕЛЬ
@@ -53,33 +77,6 @@ Utility for automatic extraction of textures and materials from `.xbg` files. No
 * ✅ Мгновенный доступ ко всем ассетам
 * ✅ Сохранение структуры папок
 * ✅ Поддержка игр:  **avatar, fc2, fc3, fc4**
-</details>
-<details>
-<a name="fr"></a>
-
-# EXTRACTOR 
-**textures et matériaux à partir de fichiers xbg**
-
-
-**Jeux supportés :** *avatar, fc2, fc3, fc4*
-
-
-
-Utilitaire pour l'extraction automatique de textures et de matériaux à partir de fichiers `.xbg`. Plus besoin d'édition hexadécimale manuelle pour localiser les fichiers intégrés — tout est extrait proprement et prêt à l'emploi !
-
-## Instructions d'utilisation :
-1. Placez vos fichiers `.xbg` dans le même répertoire que `EXTRACTOR.exe`.  
-2. Lancez `EXTRACTOR.exe`.  
-3. Un fichier nommé `PATH.ini` sera généré, contenant les chemins par défaut vers les dossiers de ressources décompressés.  
-4. Ouvrez `PATH.ini` et ajoutez les chemins complets vers vos propres répertoires de ressources décompressés.  
-   - Seule la **première ligne non commentée** sera utilisée.  
-   - Pour désactiver un chemin, ajoutez un point-virgule (`;`) au début — ex: `;C:\MesFichiersExtraits`  
-5. Après avoir relancé l'outil, il extraira automatiquement toutes les textures et tous les matériaux référencés par vos fichiers `.xbg` dans des sous-dossiers organisés, en préservant la structure d'origine des répertoires.
-
-## Avantages :
-* ✅ Accès instantané à tous les assets intégrés
-* ✅ Hiérarchie des dossiers préservée
-* ✅ Configuration simple via `PATH.ini`
 </details>
 
 
