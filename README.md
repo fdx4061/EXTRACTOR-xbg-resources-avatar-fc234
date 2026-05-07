@@ -79,6 +79,6 @@ Utility for automatic extraction of textures and materials from `.xbg` files. No
 * ✅ Поддержка игр:  **avatar, fc2, fc3, fc4**
 </details>
 
-
+<img width="751" height="526" alt="Image" src="https://github.com/user-attachments/assets/4db9654c-5775-4f5c-973d-989570eb7256" />
 
 
