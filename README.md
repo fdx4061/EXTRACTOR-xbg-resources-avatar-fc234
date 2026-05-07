@@ -1,9 +1,14 @@
-# XBG Texture and material Extractor
-**Supported games:** *Avatar: The Game, Far Cry 2, Far Cry 3, Far Cry 4*
+**Supported games:** *avatar, fc2, fc3, fc4*
+
+
+# EXTRACTOR 
+**textures and materials from xbg**
+
+
 
 
 <a name="english"></a>
-## 🇬🇧 English Description
+## 🇬🇧 en
 
 Utility for automatic extraction of textures and materials from `.xbg` files. No more manual hex editing to locate embedded files — everything is neatly extracted and ready to use!
 
@@ -24,9 +29,9 @@ Utility for automatic extraction of textures and materials from `.xbg` files. No
 ---
 
 <a name="русский"></a>
-## 🇨🇳 по Русски
+## 🇨🇳 ru
 
-Утилита для автоматического извлечения текстур и материалов из файлов `.xbg`. Больше никакого ручного поиска путей через Hex-редакторы — инструмент сделает всё за вас.
+Программа для автоматического извлечения текстур и материалов из файлов `.xbg`. Больше никакого ручного поиска путей через hex-редактор — инструмент сделает всё за вас.
 
 ### Инструкция:
 1. Поместите ваши `.xbg` файлы в ту же папку, где находится `EXTRACTOR.exe`.
@@ -41,3 +46,4 @@ Utility for automatic extraction of textures and materials from `.xbg` files. No
 * ✅ Мгновенный доступ ко всем ассетам
 * ✅ Сохранение иерархии папок
 * ✅ Поддержка игр: **Avatar, FC2, FC3, FC4**
+* 
